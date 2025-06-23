@@ -1,0 +1,44 @@
+body {
+    color: yellow;
+    background-color: black;body;
+    background-image: url("images/vedrana-filipovic-kLqZ92hmqTw-unsplash.jpg");
+    background-size: cover;
+    font-family: 'Spectral', serif;
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+nav {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center; /* centers the items horizontally */
+  list-style: none;        /* removes bullets */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 60px; /* spacing between links */
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(17, 79, 225);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: red;
+}
+
+
+
+
+
+    
