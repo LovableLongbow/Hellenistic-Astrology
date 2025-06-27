@@ -1,8 +1,6 @@
 body {
-    color: yellow;
-    background-color: black;body;
-    background-image: url("images/vedrana-filipovic-kLqZ92hmqTw-unsplash.jpg");
-    background-size: cover;
+    color: #dad1d1;
+    background-color: #4e4b4b;body;
     font-family: 'Spectral', serif;
     font-size: 18px;
     line-height: 1.6;
@@ -28,13 +26,24 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: rgb(17, 79, 225);
+  color: rgb(225, 45, 17);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 nav a:hover {
   color: red;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.homepagefooter {
+  text-align: center;
+  padding: 18px;
+  font-size: 14px;
 }
 
 
