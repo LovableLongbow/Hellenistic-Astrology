@@ -2,8 +2,11 @@
 /* ALL HEADING COLORS ARE #ff6600 */
 /* ALL NAV LINKS COLORS ARE rgb(12, 228, 117) */
 /* ALL HOVER COLORS ARE rgb(247, 5, 45) */
+/* ALL BACK-GROUND COLOR IS #272626 */
+/* THIS IS THE BODY FOR ALL WEBPAGES */
+/* ALL CONTENT BORDER COLORS rgba(250, 246, 246, 0.3) */
 
-/* This is the body for all webpages */
+
 body {
     color: #fbf2f2;
     background-color: #272626;
@@ -11,6 +14,7 @@ body {
     font-size: 26px;
     line-height: 1.6;
 }
+
 /* Headings Color */
 h1, h2 {
   color: #ff6600;
@@ -19,49 +23,53 @@ h1, h2 {
   font-size: 30px;
 }
 
-
-/* Navigation Location */
-nav {
-  padding: 50px;
+/* nav */
+.tab-nav {
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Navigation Links */
-nav ul {
-  display: flex;
-  justify-content: center; /* centers the items horizontally */
-  list-style: none;        /* removes bullets */
+/* Navigation Tabs */
+.tab-nav ul {
+  display: inline-flex;
+  list-style: none;
   padding: 0;
   margin: 0;
-}
-
-/* Navigation Links List */
-nav li {
-  margin: 0 60px; /* spacing between links */
-}
-
-/* Navigation Link Color */
-nav a {
-  text-decoration: none;
-  color: rgb(12, 228, 117);
-  font-weight: bold;
+  background-color: #272626;
+  border: 1px solid rgba(250, 246, 246, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+  justify-content: center; /* optional if needed */
   font-size: 30px;
 }
 
+/* Navigation List Spacing */
+.tab-nav li {
+  margin: 20px;
+}
+
+/* Navigation Links */
+.tab-nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fbf2f2;
+  background-color: #272626;
+  border-right: 1px solid rgba(250, 246, 246, 0.3);
+}
+
 /* Navigation Hover Color */
-nav a:hover {
+.tab-nav a:hover {
   color: rgb(247, 5, 45);
 }
 
-/* Introduction on Homepage */
+/* Introduction on Book Appointments */
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Footer on Homepage */
+/* Footers */
 .homepagefooter {
   text-align: center;
   padding: 18px;
@@ -69,27 +77,37 @@ nav a:hover {
   color: rgb(12, 228, 117);
 }
 
-/* Footer Links on Homepage */
+/* Footers */
 .homepagefooter a {
   color: rgb(12, 228, 117);
   text-decoration: none;
 }
 /* Footer Hover */
 .homepagefooter a:hover {
-  color: rgb(247, 5, 45); /* your desired hover color */
-  text-decoration: underline; /* optional: underline on hover */
+  color: rgb(247, 5, 45); 
+  text-decoration: underline; 
 }
   
-/* Logo location on Homepage */
+/* Logo */
 .site-logo {
   position: fixed;
   top: 20px;
   left: 20px;
-  width: 200px;         /* Adjust this to make it larger or smaller */
-  height: auto;         /* Keeps aspect ratio */
-  max-width: 20%;       /* Prevents it from being too big on larger screens */
+  width: 200px;         
+  height: auto;         
+  max-width: 20%;       
   z-index: 1000;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
